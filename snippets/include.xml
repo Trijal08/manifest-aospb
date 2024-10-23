@@ -57,6 +57,7 @@
   
   <!-- Packages Repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospb" />
+  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="aospb" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" groups="pdk" remote="aospb" />
