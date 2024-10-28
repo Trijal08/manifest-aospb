@@ -78,16 +78,13 @@
   <!-- external repos -->
   <remove-project name="platform/external/dtc" />
   <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/libnl" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/libcxx" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/wpa_supplicant_8" />
   <remove-project name="platform/external/zstd" />
 
   <!-- General repos -->
-  <remove-project name="platform/art" />
   <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/bootable/recovery" />
