@@ -10,10 +10,3 @@
         lunch aosp_$Device-ap3a-userdebug
         make bacon -j$(nproc --all) | tee log.log
 ```
-
-Optional Flags
---------------
-### Including GAPPS
-```bash
-WITH_GAPPS := true
-```
