@@ -56,7 +56,6 @@
 
   <!-- Hardware repos -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="lineage" />
-  <!--project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" /-->
   
   <!-- Legacy AOSP additions -->
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" remote="aosp" revision="refs/tags/android-11.0.0_r46" />
@@ -64,6 +63,7 @@
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="lineage" />
   <project path="packages/apps/SimpleSettingsConfig" name="android_packages_apps_SimpleSettingsConfig" remote="lineage" />
+  <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" groups="pdk" remote="lineage" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
 
   <!-- Prebuilt Stuff -->
@@ -75,8 +75,19 @@
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" groups="pdk,tradefed" remote="lineage" />
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="lineage" />
 
+  <!-- System -->
+  <project path="system/bpf" name="android_system_bpf" remote="lineage" />
+  <project path="system/extras" name="android_system_extras" remote="lineage" />
+  <project path="system/libhidl" name="android_system_libhidl" remote="lineage" />
+  <project path="system/libziparchive" name="android_system_libziparchive" remote="lineage" />
+  <project path="system/security" name="android_system_security" remote="lineage" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="lineage" />
+  <project path="system/vold" name="android_system_vold" remote="lineage" />
+
   <!-- Hardware -->
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="lineage" />
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="lineage" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="lineage" />
 
   <!-- HALs -->
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,waipio-vendor" revision="lineage-22.0-caf" remote="lineage" />

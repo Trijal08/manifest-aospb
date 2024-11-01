@@ -50,9 +50,7 @@
   <!-- Hardware Repos -->
   <project path="hardware/google/pixel" name="hardware_google_pixel" remote="aospb" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aospb" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aospb" />
   <project path="hardware/ril" name="hardware_ril" remote="aospb" />
-  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="aospb" />
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="15" remote="aospb" />
   
   <!-- Packages Repos -->
@@ -61,7 +59,6 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospb" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
-  <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" groups="pdk" remote="aospb" />
 
   <!-- Vendor Repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="aospb" />
@@ -72,13 +69,6 @@
 
   <!-- System Repos -->
   <project path="system/core" name="system_core" remote="aospb" />
-  <project path="system/bpf" name="system_bpf" remote="aospb" />
-  <project path="system/libhidl" name="system_libhidl" remote="aospb" />
-  <project path="system/security" name="system_security" remote="aospb" />
   <project path="system/sepolicy" name="system_sepolicy" remote="aospb" />
-  <project path="system/update_engine" name="system_update_engine" remote="aospb" />
-  <project path="system/vold" name="system_vold" remote="aospb" />
-  <project path="system/libziparchive" name="system_libziparchive" remote="aospb" />
-  <project path="system/extras" name="system_extras" remote="aospb" />
 
 </manifest>
