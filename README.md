@@ -1,6 +1,6 @@
 ### Sync the source
 ```bash
-        repo init -u ssh://git@github.com/aosp-pb/manifest -b 15
+        repo init -u https://github.com/aosp-pb/manifest -b 15
         repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc --all)
 ```
 
