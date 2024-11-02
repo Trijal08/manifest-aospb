@@ -20,7 +20,6 @@
   <project path="bionic" name="bionic" remote="aospb" />
 
   <!-- Build Repos -->
-  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="aospb" />
   <project path="build/make" name="build" groups="pdk" remote="aospb" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -36,9 +35,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
-  <!-- External Repos -->
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aospb" />
-
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="aospb" />
   <project path="frameworks/base" name="frameworks_base" remote="aospb" />
@@ -47,17 +43,10 @@
   <!-- GMS -->
   <project path="vendor/gms" name="android_vendor_gms" remote="clarencelol-gitea" clone-depth="1" />
   
-  <!-- Hardware Repos -->
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="aospb" />
-  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aospb" />
-  <project path="hardware/ril" name="hardware_ril" remote="aospb" />
-  <project path="hardware/xiaomi" name="hardware_xiaomi" revision="15" remote="aospb" />
-  
   <!-- Packages Repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospb" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="aospb" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospb" />
-  <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
 
   <!-- Vendor Repos -->
