@@ -35,6 +35,9 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <!-- External Repos -->
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aospb" />
+
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="frameworks_av" remote="aospb" />
   <project path="frameworks/base" name="frameworks_base" remote="aospb" />
@@ -43,6 +46,9 @@
   <!-- GMS -->
   <project path="vendor/gms" name="android_vendor_gms" remote="clarencelol-gitea" clone-depth="1" />
   
+  <!-- Hardware Repos -->
+  <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aospb" />
+
   <!-- Packages Repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospb" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="aospb" />
