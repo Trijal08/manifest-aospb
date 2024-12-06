@@ -50,7 +50,7 @@
 
   <!-- Packages Repos -->
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospb" />
-  <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="aospb" />
+  <!-- <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="aospb" /> -->
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospb" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="aospb" />
 
