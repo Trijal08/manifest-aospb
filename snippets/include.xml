@@ -14,7 +14,6 @@
 
   <!-- General Repos -->
   <project path="bootable/recovery" name="bootable_recovery" remote="aospb" />
-  <project path="development" name="development" remote="aospb" />
   <project path="manifest" name="manifest" remote="aospb" />
   <project path="bionic" name="bionic" remote="aospb" />
 
