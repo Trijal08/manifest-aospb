@@ -26,8 +26,8 @@
   <remove-project name="device/google/bluejay-kernels/5.10" />
   <!-- remove-project name="device/google/coral" / -->
   <!-- remove-project name="device/google/coral-kernel" / -->
-  <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-kernel" />
+  <!-- remove-project name="device/google/redbull" / -->
+  <!-- remove-project name="device/google/redbull-kernel" / -->
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
