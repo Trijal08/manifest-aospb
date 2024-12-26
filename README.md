@@ -1,7 +1,7 @@
 ### Spinning up the environment
 --------------
 ```bash
-        bash <(curl -sL https://raw.githubusercontent.com/akhilnarang/scripts/refs/heads/master/setup/android_build_env.sh)
+bash <(curl -sL https://raw.githubusercontent.com/akhilnarang/scripts/refs/heads/master/setup/android_build_env.sh)
 ```
 
 ### Sync the source
@@ -15,9 +15,9 @@ repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-
 ### Build
 --------------
 ```bash
-        source build/envsetup.sh
-        lunch aosp_$Device-ap3a-userdebug
-        make bacon -j$(nproc --all) | tee log.log
+source build/envsetup.sh
+lunch aosp_$Device-ap3a-userdebug
+make bacon -j$(nproc --all) | tee log.log
 ```
 
 ### Credits
