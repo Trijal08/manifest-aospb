@@ -7,9 +7,9 @@
 ### Sync the source
 --------------
 ```bash
-        mkdir aospb && cd aospb
-        repo init -u https://github.com/aosp-pb/manifest -b 15
-        repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc --all)
+mkdir aospb && cd aospb
+repo init -u https://github.com/Trijal08/manifest-aospb -b 15
+repo sync --current-branch --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j$(nproc --all)
 ```
 
 ### Build
