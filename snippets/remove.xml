@@ -57,7 +57,7 @@
   <remove-project name="device/google/akita-kernels/5.15" /> 
   <remove-project name="device/google/zuma" />
   <remove-project name="device/google/zuma-sepolicy" />
-  <remove-project name="device/google/vrservices" />
+  <!-- remove-project name="device/google/vrservices" / -->
   <remove-project name="device/google_car" />
   <remove-project name="device/linaro/dragonboard" />
   <remove-project name="device/linaro/dragonboard-kernel" />
